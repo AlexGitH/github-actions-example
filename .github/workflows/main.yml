@@ -4,6 +4,10 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      - name: print to console
+      - name: Print to console
         run: echo Print text into console
+      - name: Another multiline logging runs
+        run: |
+          echo This is first line
+          echo This is second Line!
       

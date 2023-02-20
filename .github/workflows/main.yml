@@ -1,0 +1,9 @@
+name: Workflow example
+on: workflow_dispatch
+jobs: 
+  print:
+    runs-on: upuntu-latest
+    steps:
+      - name: print to console
+        run: echo Print text into console
+      
